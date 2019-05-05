@@ -1,10 +1,7 @@
 public class OctalToDecimalConverter {
     public static void main(String[] args) {
         String octal = args[0];
-        String[] number = octal.split("");
-        for (int i=0; i < number.length; i++) {
-            System.out.println(number[i]);
-        }
+        System.out.println(octal);
 //        int octalNumber = Integer.parseInt(args[0]);
 //        int i=0,decimalNumber=0,lastDigit,exponent=8;
 //        boolean notDecimal = true;
