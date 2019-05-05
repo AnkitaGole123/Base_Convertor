@@ -11,11 +11,9 @@ public class OctalToDecimalConverter {
         int octalNumber = Integer.parseInt(args[0]);
         int i=0,decimalNumber=0,lastDigit,exponent=8;
         boolean notDecimal = true;
-        while(octalNumber!=0) {
-            lastDigit = getLastDigit(octalNumber);
-            octalNumber= getOctalNumber(octalNumber);
-            decimalNumber+=lastDigit * ((int)(Math.pow(exponent,i)));
-                i++;
+        for(int digit:getDigits(octalNumber)) {
+            decimalNumber+=digit * ((int)(Math.pow(exponent,i)));
+            i++;
         }
         System.out.println("The decimal number of the number you have given is "+decimalNumber);
         }
