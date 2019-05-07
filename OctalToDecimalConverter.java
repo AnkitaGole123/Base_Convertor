@@ -8,10 +8,8 @@ public class OctalToDecimalConverter {
             System.out.println("your input is not an octal number");
             return;
         }
-        int octalNumber = Integer.parseInt(args[0]);
-        int i=0,decimalNumber=0,lastDigit,exponent=8;
-        boolean notDecimal = true;
-        for(int digit:getDigits(octalNumber)) {
+        int i=0,decimalNumber=0,exponent=8;
+        for(int digit:getDigits(args[0])) {
             decimalNumber+=digit * ((int)(Math.pow(exponent,i)));
             i++;
         }
@@ -27,11 +25,13 @@ public class OctalToDecimalConverter {
         return octalNumber % 10;
     }
 
-    private  static List<Integer> getDigits(int number){
+    private  static List<Integer> getDigits(String number){
+        int num = Integer.parseInt(number);
         List<Integer> digits = new ArrayList<Integer>();
-        while(number!=0){
-            digits.add(getLastDigit(number));
-            number = getOctalNumber(number);
+        while(num!=0){
+            int lastDigit = getLastDigit(num);
+            num =getOctalNumber(num);
+                    digits.add(lastDigit);
         }
         return digits;
     }
