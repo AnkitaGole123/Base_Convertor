@@ -47,7 +47,6 @@ public class OctalToDecimalConverter {
         }
         return powerSeries;
     }
-
     private static List<Integer> getDotProducts(List<Integer> numbers1, List<Integer> numbers2) {
         List<Integer> dotProduct = new ArrayList<Integer>();
         for (int i = 0; i < numbers1.size(); i++) {
@@ -56,5 +55,4 @@ public class OctalToDecimalConverter {
         }
         return dotProduct;
     }
-
 }
