@@ -9,12 +9,10 @@ public class OctalToDecimalConverter {
             System.out.println("your input is not an octal number");
             return;
         }
-        int i = 0, decimalNumber = 0;
-        for (int digit : getDotProducts(getDigits(args[0]), getPowerSereis(numberOfTerms))) {
-            decimalNumber += digit;
+        int decimal= getDotProducts(getDigits(args[0]),getPowerSereis(numberOfTerms));
+        System.out.println("The decimal number of the number you have given is " + decimal);
         }
-        System.out.println("The decimal number of the number you have given is " + decimalNumber);
-    }
+
     private static boolean isNotOctal(String octal) {
         return octal.contains("8") || octal.contains("9");
     }
@@ -47,11 +45,11 @@ public class OctalToDecimalConverter {
         }
         return powerSeries;
     }
-    private static List<Integer> getDotProducts(List<Integer> numbers1, List<Integer> numbers2) {
-        List<Integer> dotProduct = new ArrayList<Integer>();
-        for (int i = 0; i < numbers1.size(); i++) {
-            int product = numbers1.get(i) * numbers2.get(i);
-            dotProduct.add(product);
+    private static int getDotProducts(List<Integer> numbers1, List<Integer> numbers2) {
+        int dotProduct=0,i=0;
+        while(i<numbers1.size()){
+            dotProduct+=numbers1.get(i)*numbers2.get(i);
+            i++;
         }
         return dotProduct;
     }
