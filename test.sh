@@ -7,3 +7,6 @@ diff actual ExpectedOutputOfBase8for1number
 
 java OctalToDecimalConverter --base 2 34 > actual
 diff actual ExpectedOutputOfBase2for34number
+
+java OctalToDecimalConverter --base 7 56 > actual
+diff actual ExpectedOutputOfBase7for56number

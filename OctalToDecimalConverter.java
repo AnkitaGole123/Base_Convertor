@@ -3,15 +3,14 @@ import java.util.List;
 
 public class OctalToDecimalConverter {
     public static void main(String[] args) {
-        String base = args[1];
-        int bases = Integer.parseInt(base);
+        int base = Integer.parseInt(args[1]);
         String number = args[2];
         int numberOfTerms = number.length();
-        if (isNotValid(getDigits(number), bases)) {
+        if (isNotValid(getDigits(number), base)) {
             System.out.println("your input is not an number number");
             return;
         }
-        int decimal= getDotProducts(getDigits(args[2]),getPowerSeries(numberOfTerms));
+        int decimal= getDotProducts(getDigits(number),getPowerSeries(numberOfTerms, base));
         System.out.println("The decimal number of the number you have given is " + decimal);
         }
 
@@ -34,11 +33,10 @@ public class OctalToDecimalConverter {
         return list;
     }
 
-    private static List<Integer> getPowerSeries(int numberOfTerms) {
+    private static List<Integer> getPowerSeries(int numberOfTerms, int baseNumber) {
         List<Integer> powerSeries = new ArrayList<Integer>();
-        int exponent = 8;
         for (int i = 0; i < numberOfTerms; i++) {
-            int power = (int) (Math.pow(exponent, i));
+            int power = (int) (Math.pow(baseNumber, i));
             powerSeries.add(power);
         }
         return powerSeries;
