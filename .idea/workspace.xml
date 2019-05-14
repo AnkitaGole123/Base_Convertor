@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7d2e98c7-c2e7-4ddd-b160-87f7e9c8e317" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpectedOutput" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpectedOutput1" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpectedOutput2" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpectedOutputOfBase2" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase2for34number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpectedOutputOfBase5" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase8for1number" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpectedOutputOfBase8" beforeDir="false" afterPath="$PROJECT_DIR$/ExpectedOutputOfBase8for123number" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="244">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +33,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase2">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase2for34number">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="34" selection-start-column="34" selection-end-column="34" />
@@ -45,19 +45,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8">
+        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8for123number">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase5">
+        <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8for1number">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="51" selection-start-column="51" selection-end-column="51" />
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557818749713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changing expectedOutput files name">
+      <created>1557822367205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557822367205</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -211,7 +218,7 @@
     <frame x="20" y="43" width="1400" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,7 +232,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32886904" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32886904" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32886904" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -249,7 +256,8 @@
     <MESSAGE value="add option for base" />
     <MESSAGE value="Improve names" />
     <MESSAGE value="invalid for base" />
-    <option name="LAST_COMMIT_MESSAGE" value="invalid for base" />
+    <MESSAGE value="changing expectedOutput files name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing expectedOutput files name" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/actual">
@@ -258,37 +266,37 @@
     <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase5">
+    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8for1number">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="51" selection-start-column="51" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8">
+    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase8for123number">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase2for34number">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="75">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="244">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExpectedOutputOfBase2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
