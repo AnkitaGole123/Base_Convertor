@@ -4,9 +4,10 @@ import java.util.List;
 public class OctalToDecimalConverter {
     public static void main(String[] args) {
         String base = args[1];
+        int bases = Integer.parseInt(base);
         String number = args[2];
         int numberOfTerms = number.length();
-        if (isNotValid(number)) {
+        if (isNotValid(getDigits(number), bases)) {
             System.out.println("your input is not an number number");
             return;
         }
@@ -14,8 +15,13 @@ public class OctalToDecimalConverter {
         System.out.println("The decimal number of the number you have given is " + decimal);
         }
 
-    private static boolean isNotValid(String octal) {
-        return octal.contains("8") || octal.contains("9");
+    private static boolean isNotValid(List<Integer> digits, int base) {
+        for (int i = 0; i< digits.size(); i++){
+            if (digits.get(i) > base){
+                return true;
+            }
+        }
+        return false;
     }
     private static List<Integer> getDigits(String number) {
         String[] userInput = number.split("");
