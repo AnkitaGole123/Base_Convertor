@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d2e98c7-c2e7-4ddd-b160-87f7e9c8e317" name="Default Changelist" comment="">
+    <list default="true" id="7d2e98c7-c2e7-4ddd-b160-87f7e9c8e317" name="Default Changelist" comment="changing dotProduct condition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OctalToDecimalConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/OctalToDecimalConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OctalToDecimalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/OctalToDecimalConverter.java" afterDir="false" />
@@ -18,17 +18,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="309">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpectedOutput2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="52" selection-start-column="52" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -56,6 +61,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ExpectedOutput2" />
         <option value="$PROJECT_DIR$/OctalToDecimalConverter.java" />
       </list>
     </option>
@@ -79,8 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,6 +96,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557470862083</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changing dotProduct condition">
+      <created>1557514248761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557514248761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -149,8 +162,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -180,30 +194,40 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="making function for getting power series." />
     <MESSAGE value="making function for getting dotProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="making function for getting dotProduct" />
+    <MESSAGE value="changing dotProduct condition" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing dotProduct condition" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.class">
+    <entry file="file://$PROJECT_DIR$/ExpectedOutput1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/actual">
+    <entry file="file://$PROJECT_DIR$/ExpectedOutput">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/actual">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpectedOutput2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OctalToDecimalConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="309">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
